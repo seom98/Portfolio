@@ -9,7 +9,7 @@ export default function Router() {
         <BrowserRouter>
             <Suspense fallback={<div>로딩중</div>}>
                 <Routes>
-                    <Route path="/portfolio" element={<App />}>
+                    <Route path="/" element={<App />}>
                         <Route index element={<WelcomePage />} />
                     </Route>
                 </Routes>
